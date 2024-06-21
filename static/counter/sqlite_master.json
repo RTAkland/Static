@@ -1,0 +1,79 @@
+[
+  {
+    "type": "table",
+    "name": "data",
+    "tbl_name": "data",
+    "rootpage": 2,
+    "sql": "CREATE TABLE data (id text primary key , times integer)"
+  },
+  {
+    "type": "index",
+    "name": "sqlite_autoindex_data_1",
+    "tbl_name": "data",
+    "rootpage": 3,
+    "sql": null
+  },
+  {
+    "type": "table",
+    "name": "blacked",
+    "tbl_name": "blacked",
+    "rootpage": 60,
+    "sql": "CREATE TABLE blacked(id integer primary key , base64 text, width integer, height integer)"
+  },
+  {
+    "type": "table",
+    "name": "moebooru",
+    "tbl_name": "moebooru",
+    "rootpage": 61,
+    "sql": "CREATE TABLE moebooru(id integer primary key , base64 text, width integer, height integer)"
+  },
+  {
+    "type": "table",
+    "name": "lisu",
+    "tbl_name": "lisu",
+    "rootpage": 62,
+    "sql": "CREATE TABLE lisu(id integer primary key , base64 text, width integer, height integer)"
+  },
+  {
+    "type": "table",
+    "name": "lewd",
+    "tbl_name": "lewd",
+    "rootpage": 63,
+    "sql": "CREATE TABLE lewd(id integer primary key , base64 text, width integer, height integer)"
+  },
+  {
+    "type": "table",
+    "name": "asoul",
+    "tbl_name": "asoul",
+    "rootpage": 4,
+    "sql": "CREATE TABLE asoul(id int primary key, base64 text, width int, height int)"
+  },
+  {
+    "type": "index",
+    "name": "sqlite_autoindex_asoul_1",
+    "tbl_name": "asoul",
+    "rootpage": 5,
+    "sql": null
+  },
+  {
+    "type": "table",
+    "name": "rule34",
+    "tbl_name": "rule34",
+    "rootpage": 7,
+    "sql": "CREATE TABLE rule34(id integer primary key, base64 text, width integer, height integer)"
+  },
+  {
+    "type": "table",
+    "name": "hgelbooru",
+    "tbl_name": "hgelbooru",
+    "rootpage": 16,
+    "sql": "CREATE TABLE hgelbooru(id integer primary key, base64 text, width integer, height integer)"
+  },
+  {
+    "type": "table",
+    "name": "hmoebooru",
+    "tbl_name": "hmoebooru",
+    "rootpage": 17,
+    "sql": "CREATE TABLE hmoebooru(id integer primary key, base64 text, width integer, height integer)"
+  }
+]
