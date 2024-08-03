@@ -1,21 +1,21 @@
 [
   {
-    "keyword": "Ԫ��",
-    "response": "ʲô? ԭ����Ҳ��ԭ��!",
+    "keyword": "元神",
+    "response": "什么? 原来你也玩原神!",
     "type": "CONTAIN"
   },
   {
-    "keyword": "ԭ��",
-    "response": "ʲô? ԭ����Ҳ��ԭ��!",
+    "keyword": "原审",
+    "response": "什么? 原来你也玩原神!",
     "type": "CONTAIN"
   },
   {
-    "keyword": "ԭ��",
-    "response": "��ԭ�������Ϻ��׹�������Ƽ��ɷ����޹�˾�������е�һ�������ð����Ϸ, �������ˡ�����",
+    "keyword": "原神",
+    "response": "《原神》是由上海米哈游网络科技股份有限公司制作发行的一款开放世界冒险游戏, 后面忘了。。。",
     "type": "EQUAL"
   },
   {
-    "keyword": "?",
+    "keyword": "⚪",
     "response": "xxxxx",
     "type": "CONTAIN"
   },
